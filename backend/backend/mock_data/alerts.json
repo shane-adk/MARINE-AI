@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-10-17T18:00:00+05:30",
+  "alerts": [
+    {
+      "alert_id": "alt-1001",
+      "level": "critical",
+      "type": "oil_spill",
+      "title": "Large oil slick spreading near Ennore port",
+      "location": [
+        80.327,
+        13.243
+      ],
+      "issued_at": "2026-10-17T17:45:00+05:30",
+      "expires_at": "2026-10-18T05:45:00+05:30",
+      "message": "Sentinel-1 SAR confirms 8.4 km\u00b2 slick 3 km NE of Ennore port. Drift trending NE toward Kasimedu fishing grounds.",
+      "recommended_actions": [
+        "deploy_skimmers",
+        "set_boom",
+        "notify_fisheries"
+      ]
+    },
+    {
+      "alert_id": "alt-1002",
+      "level": "warning",
+      "type": "algal_bloom",
+      "title": "Algal bloom risk rising off Chennai coast",
+      "location": [
+        80.41,
+        13.12
+      ],
+      "issued_at": "2026-10-17T15:00:00+05:30",
+      "expires_at": "2026-10-20T15:00:00+05:30",
+      "message": "Chlorophyll 4.8 mg/m\u00b3, SST 29.4\u00b0C. 68% probability of bloom expansion within 72h.",
+      "recommended_actions": [
+        "increase_sampling",
+        "monitor_fisheries"
+      ]
+    },
+    {
+      "alert_id": "alt-1003",
+      "level": "advisory",
+      "type": "marine_debris",
+      "title": "Macro-plastics accumulation at Ennore creek mouth",
+      "location": [
+        80.356,
+        13.219
+      ],
+      "issued_at": "2026-10-17T16:35:00+05:30",
+      "expires_at": "2026-10-19T16:35:00+05:30",
+      "message": "Est. 34.5 m\u00b3 of macro-plastics drifting toward mangrove patch.",
+      "recommended_actions": [
+        "schedule_cleanup",
+        "install_barrier"
+      ]
+    }
+  ]
+}

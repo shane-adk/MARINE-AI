@@ -1,0 +1,57 @@
+{
+  "forecast_id": "algal-fc-2026-10-17",
+  "zone": {
+    "center": [
+      80.41,
+      13.12
+    ],
+    "bbox": [
+      80.3,
+      13.02,
+      80.52,
+      13.22
+    ]
+  },
+  "generated_at": "2026-10-17T18:00:00+05:30",
+  "model_version": "mock-v0",
+  "days": 5,
+  "daily_forecasts": [
+    {
+      "date": "2026-10-18",
+      "bloom_probability": 0.62,
+      "chlorophyll_mg_m3": 5.2,
+      "affected_area_km2": 18.0,
+      "risk_level": "moderate"
+    },
+    {
+      "date": "2026-10-19",
+      "bloom_probability": 0.68,
+      "chlorophyll_mg_m3": 5.9,
+      "affected_area_km2": 24.5,
+      "risk_level": "high"
+    },
+    {
+      "date": "2026-10-20",
+      "bloom_probability": 0.71,
+      "chlorophyll_mg_m3": 6.3,
+      "affected_area_km2": 29.0,
+      "risk_level": "high"
+    },
+    {
+      "date": "2026-10-21",
+      "bloom_probability": 0.64,
+      "chlorophyll_mg_m3": 5.6,
+      "affected_area_km2": 26.0,
+      "risk_level": "moderate"
+    },
+    {
+      "date": "2026-10-22",
+      "bloom_probability": 0.55,
+      "chlorophyll_mg_m3": 4.9,
+      "affected_area_km2": 21.0,
+      "risk_level": "moderate"
+    }
+  ],
+  "dominant_species_hint": "Noctiluca scintillans",
+  "advisory": "Avoid seawater intake for desalination on 19-20 Oct; aquaculture oxygen monitoring advised."
+}

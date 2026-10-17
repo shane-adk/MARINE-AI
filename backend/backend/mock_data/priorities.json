@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-10-17T18:00:00+05:30",
+  "ranking_method": "risk = severity x area x exposure / response_cost",
+  "priorities": [
+    {
+      "rank": 1,
+      "event_id": "oil-001",
+      "type": "oil_spill",
+      "location": [
+        80.327,
+        13.243
+      ],
+      "risk_score": 0.93,
+      "rationale": "Large slick + high fisheries exposure + wind-driven spread toward coast",
+      "suggested_response": "rapid_skimming",
+      "response_window_h": 6
+    },
+    {
+      "rank": 2,
+      "event_id": "alt-1002",
+      "type": "algal_bloom",
+      "location": [
+        80.41,
+        13.12
+      ],
+      "risk_score": 0.71,
+      "rationale": "Bloom expansion threatens aquaculture zones",
+      "suggested_response": "enhanced_monitoring",
+      "response_window_h": 48
+    },
+    {
+      "rank": 3,
+      "event_id": "deb-001",
+      "type": "marine_debris",
+      "location": [
+        80.356,
+        13.219
+      ],
+      "risk_score": 0.58,
+      "rationale": "Debris threatens mangrove nursery habitat",
+      "suggested_response": "mechanical_collection",
+      "response_window_h": 72
+    },
+    {
+      "rank": 4,
+      "event_id": "oil-002",
+      "type": "oil_spill",
+      "location": [
+        80.392,
+        13.187
+      ],
+      "risk_score": 0.44,
+      "rationale": "Small sheen near shipping lane; monitor for growth",
+      "suggested_response": "aerial_surveillance",
+      "response_window_h": 24
+    }
+  ]
+}

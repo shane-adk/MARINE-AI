@@ -1,0 +1,121 @@
+{
+  "scenario_id": "ennore-2026-10-17",
+  "zone": {
+    "name": "Chennai Ennore Coast",
+    "center": [
+      80.35,
+      13.2
+    ],
+    "bbox": [
+      80.2,
+      13.05,
+      80.5,
+      13.35
+    ]
+  },
+  "generated_at": "2026-10-17T18:00:00+05:30",
+  "summary": {
+    "overall_risk": "high",
+    "active_events": 3,
+    "affected_area_km2": 42.6
+  },
+  "oil_detections": [
+    {
+      "detection_id": "oil-001",
+      "confidence": 0.91,
+      "area_km2": 8.4,
+      "centroid": [
+        80.327,
+        13.243
+      ],
+      "polygon": [
+        [
+          80.31,
+          13.23
+        ],
+        [
+          80.34,
+          13.24
+        ],
+        [
+          80.345,
+          13.26
+        ],
+        [
+          80.315,
+          13.255
+        ]
+      ],
+      "source": "sentinel-1-sar",
+      "detected_at": "2026-10-17T17:40:00+05:30",
+      "anomaly_score": 0.88,
+      "thickness_estimate_mm": 0.35
+    },
+    {
+      "detection_id": "oil-002",
+      "confidence": 0.74,
+      "area_km2": 2.1,
+      "centroid": [
+        80.392,
+        13.187
+      ],
+      "polygon": [
+        [
+          80.385,
+          13.18
+        ],
+        [
+          80.4,
+          13.185
+        ],
+        [
+          80.398,
+          13.195
+        ]
+      ],
+      "source": "drone-rgb",
+      "detected_at": "2026-10-17T16:55:00+05:30",
+      "anomaly_score": 0.71,
+      "thickness_estimate_mm": 0.12
+    }
+  ],
+  "debris_detections": [
+    {
+      "detection_id": "deb-001",
+      "confidence": 0.83,
+      "area_km2": 1.2,
+      "centroid": [
+        80.356,
+        13.219
+      ],
+      "polygon": [
+        [
+          80.35,
+          13.215
+        ],
+        [
+          80.362,
+          13.218
+        ],
+        [
+          80.36,
+          13.224
+        ],
+        [
+          80.352,
+          13.222
+        ]
+      ],
+      "source": "sentinel-2-msi",
+      "detected_at": "2026-10-17T16:30:00+05:30",
+      "debris_class": "macro_plastics",
+      "estimated_volume_m3": 34.5
+    }
+  ],
+  "water_quality": {
+    "sea_surface_temp_c": 29.4,
+    "chlorophyll_mg_m3": 4.8,
+    "turbidity_ntu": 18.2,
+    "dissolved_oxygen_mg_l": 5.1
+  }
+}

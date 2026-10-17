@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-10-17T18:00:00+05:30",
+  "target_event": "oil-001",
+  "location": [
+    80.327,
+    13.243
+  ],
+  "candidates": [
+    {
+      "action": "rapid_skimming",
+      "cost_inr_lakhs": 85,
+      "oil_recovery_pct": 62,
+      "time_to_deploy_h": 5,
+      "coverage_km2": 6.5,
+      "environmental_score": 0.81,
+      "feasibility": 0.9
+    },
+    {
+      "action": "boom_containment",
+      "cost_inr_lakhs": 40,
+      "oil_recovery_pct": 25,
+      "time_to_deploy_h": 3,
+      "coverage_km2": 4.0,
+      "environmental_score": 0.66,
+      "feasibility": 0.85
+    },
+    {
+      "action": "dispersant_application",
+      "cost_inr_lakhs": 60,
+      "oil_recovery_pct": 40,
+      "time_to_deploy_h": 8,
+      "coverage_km2": 8.4,
+      "environmental_score": 0.42,
+      "feasibility": 0.6
+    },
+    {
+      "action": "do_nothing_monitor",
+      "cost_inr_lakhs": 5,
+      "oil_recovery_pct": 0,
+      "time_to_deploy_h": 1,
+      "coverage_km2": 0,
+      "environmental_score": 0.18,
+      "feasibility": 1.0
+    }
+  ],
+  "recommended_action": "rapid_skimming",
+  "recommendation_rationale": "Highest combined recovery + environmental score; deployable within 6h response window."
+}
